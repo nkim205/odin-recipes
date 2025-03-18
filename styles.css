@@ -1,0 +1,45 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.navbar {
+    padding: 1em;
+    border: 0px;
+    background-color: tan;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    grid-column: 1 / 2;
+    background-color: tan;
+}
+
+img.home {
+    width: 8vh;
+    height: auto;
+    position: fixed;
+    bottom: 2vh;
+    right: 2vh;
+}
+
+div.entry {
+    display: grid;
+    justify-items: center;
+    padding: 2em 0px 2em 0px;
+}
+
+img.food {
+    width: 30em;
+    height: auto;
+    border: 0.33vh solid black;
+}
+
+.text {
+    font-size: 1.75em;
+}
